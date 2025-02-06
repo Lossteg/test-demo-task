@@ -1,0 +1,17 @@
+uuid: 2db360ed-5955-4218-8da2-43f0782de5f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'For creating and managing events'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false
