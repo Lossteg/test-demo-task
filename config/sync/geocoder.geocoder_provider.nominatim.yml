@@ -1,0 +1,16 @@
+uuid: 26f4c54b-f0b1-44f0-bc97-5b96126807f3
+langcode: en
+status: true
+dependencies: {  }
+id: nominatim
+label: Nominatim
+plugin: nominatim
+configuration:
+  throttle:
+    period: 2
+    limit: 1
+  geocoder:
+    locale: ''
+  rootUrl: 'https://nominatim.openstreetmap.org'
+  userAgent: 'Drupal test-demo-task.ddev.site'
+  referer: 'https://test-demo-task.ddev.site'
