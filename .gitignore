@@ -63,3 +63,6 @@
 
 # Ignore JetBrains IDE configuration
 .idea
+
+# Ignore installed contrib modules
+/web/modules/contrib
